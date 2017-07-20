@@ -15,7 +15,6 @@ from whitenoise.django import DjangoWhiteNoise
 application = get_wsgi_application() – this line of code is already present
 application = DjangoWhiteNoise(application)
 
-
 os.environ.setdefault("DJANGO_SETTINGS_MODULE", "efsblog.settings")
 
 application = get_wsgi_application()

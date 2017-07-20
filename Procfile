@@ -1,1 +1,1 @@
-web: gunicorn mdc-assigment1-part2.wsgi --log-file -
+web: gunicorn efsblog.wsgi --log-file -
